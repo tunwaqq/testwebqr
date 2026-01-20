@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0d47a1, #1976d2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  max-width: 420px;
+  margin: auto;
+  background: #ffffff;
+  padding: 30px 25px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0d47a1;
+}
+
+.subtitle {
+  margin-bottom: 25px;
+  color: #555;
+  font-size: 15px;
+}
+
+.btn {
+  display: block;
+  margin: 12px 0;
+  padding: 15px;
+  border-radius: 14px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #1e88e5;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: #1565c0;
+}
+
+.btn.line {
+  background: #06c755;
+}
+
+.btn.line:hover {
+  background: #05a647;
+}
+
+.btn.phone {
+  background: #f4511e;
+}
+
+.btn.phone:hover {
+  background: #d84315;
+}
+
+.btn.map {
+  background: #8e24aa;
+}
+
+.btn.map:hover {
+  background: #6a1b9a;
+}
+
+footer {
+  margin-top: 25px;
+  font-size: 12px;
+  color: #888;
+}
